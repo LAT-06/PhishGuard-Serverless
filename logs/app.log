@@ -1,0 +1,325 @@
+2025-12-18 10:30:16,646 - app - INFO - Logging initialized
+2025-12-18 10:30:16,647 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:30:16,647 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:30:16,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.216.198.254:5000
+2025-12-18 10:30:16,659 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-18 10:30:16,660 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:30:16,779 - app - INFO - Logging initialized
+2025-12-18 10:30:16,779 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:30:16,780 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:30:16,788 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:30:16,792 - werkzeug - INFO -  * Debugger PIN: 431-317-008
+2025-12-18 10:30:31,089 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 10:30:31] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-18 10:30:31,095 - __main__ - INFO - Scan request received
+2025-12-18 10:30:31,096 - __main__ - INFO - Scanning URL: facebook.com
+2025-12-18 10:30:31,096 - __main__ - WARNING - Invalid URL format: facebook.com
+2025-12-18 10:30:31,096 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 10:30:31] "[31m[1mPOST /api/scan HTTP/1.1[0m" 400 -
+2025-12-18 10:30:36,023 - __main__ - INFO - Scan request received
+2025-12-18 10:30:36,023 - __main__ - INFO - Scanning URL: https://facebook.com
+2025-12-18 10:30:36,023 - __main__ - INFO - Cache miss for URL: https://facebook.com, calling VirusTotal API
+2025-12-18 10:30:36,024 - virustotal - INFO - Starting VirusTotal scan for: https://facebook.com
+2025-12-18 10:30:36,024 - virustotal - INFO - Submitting URL to VirusTotal: https://facebook.com
+2025-12-18 10:30:36,790 - virustotal - INFO - URL submitted, analysis ID: u-773810347b00c76eea6e3b6386b2b6deafae9e6160fea0028a7124b6529161d6-70da5fa5
+2025-12-18 10:30:36,791 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 10:30:41,792 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9mYWNlYm9vay5jb20
+2025-12-18 10:30:43,399 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 10:30:43,400 - __main__ - INFO - Scan completed and cached for URL: https://facebook.com
+2025-12-18 10:30:43,401 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 10:30:43] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 10:44:01,717 - app - INFO - Logging initialized
+2025-12-18 10:44:01,717 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:44:01,719 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:44:01,731 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.216.198.254:5000
+2025-12-18 10:44:01,731 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-18 10:44:01,731 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:44:01,881 - app - INFO - Logging initialized
+2025-12-18 10:44:01,881 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:44:01,882 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:44:01,891 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:44:01,896 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 10:44:16,452 - app - INFO - Logging initialized
+2025-12-18 10:44:16,452 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:44:16,453 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:45:12,712 - app - INFO - Logging initialized
+2025-12-18 10:45:12,712 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:45:12,713 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:46:19,360 - app - INFO - Logging initialized
+2025-12-18 10:46:19,360 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:46:19,361 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:46:19,374 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.216.198.254:5000
+2025-12-18 10:46:19,374 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-18 10:46:19,375 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:46:19,567 - app - INFO - Logging initialized
+2025-12-18 10:46:19,567 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:46:19,568 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:46:19,577 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:46:19,580 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 10:46:44,870 - __main__ - INFO - Scan request received
+2025-12-18 10:46:44,870 - __main__ - INFO - Scanning URL: https://facebook.com
+2025-12-18 10:46:44,873 - __main__ - INFO - Cache hit for URL: https://facebook.com
+2025-12-18 10:46:44,873 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 10:46:44] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 10:47:46,161 - __main__ - INFO - Scan request received
+2025-12-18 10:47:46,161 - __main__ - INFO - Scanning URL: https://pornhub.com
+2025-12-18 10:47:46,162 - __main__ - INFO - Cache miss for URL: https://pornhub.com, calling VirusTotal API
+2025-12-18 10:47:46,162 - virustotal - INFO - Starting VirusTotal scan for: https://pornhub.com
+2025-12-18 10:47:46,162 - virustotal - INFO - Submitting URL to VirusTotal: https://pornhub.com
+2025-12-18 10:47:46,814 - virustotal - INFO - URL submitted, analysis ID: u-2c471cd9fcc6591680aaceab36689663690f1099bb0416e0dd84f4be0406974b-88caa247
+2025-12-18 10:47:46,814 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 10:47:51,815 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9wb3JuaHViLmNvbQ
+2025-12-18 10:47:52,318 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 10:47:52,319 - __main__ - INFO - Scan completed and cached for URL: https://pornhub.com
+2025-12-18 10:47:52,320 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 10:47:52] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 10:52:42,158 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/tests/conftest.py', reloading
+2025-12-18 10:52:42,191 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:52:42,322 - app - INFO - Logging initialized
+2025-12-18 10:52:42,322 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:52:42,323 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:52:42,333 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:52:42,335 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 10:53:23,404 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/tests/test_cache.py', reloading
+2025-12-18 10:53:23,468 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:53:23,657 - app - INFO - Logging initialized
+2025-12-18 10:53:23,657 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:53:23,658 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:53:23,670 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:53:23,672 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 10:54:49,827 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/tests/test_virustotal.py', reloading
+2025-12-18 10:54:49,897 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:54:50,090 - app - INFO - Logging initialized
+2025-12-18 10:54:50,090 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:54:50,091 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:54:50,103 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:54:50,105 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 10:57:54,382 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/tests/test_api.py', reloading
+2025-12-18 10:57:54,419 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 10:57:54,578 - app - INFO - Logging initialized
+2025-12-18 10:57:54,578 - __main__ - INFO - Application initialized successfully
+2025-12-18 10:57:54,579 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 10:57:54,588 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 10:57:54,590 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 11:07:23,261 - app - INFO - Logging initialized
+2025-12-18 11:07:23,261 - app - INFO - Application initialized successfully
+2025-12-18 11:13:57,513 - app - INFO - Logging initialized
+2025-12-18 11:13:57,513 - app - INFO - Application initialized successfully
+2025-12-18 11:13:57,577 - app - INFO - Scan request received
+2025-12-18 11:13:57,578 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,578 - app - INFO - Cache miss for URL: https://example.com, calling VirusTotal API
+2025-12-18 11:13:57,579 - app - INFO - Scan completed and cached for URL: https://example.com
+2025-12-18 11:13:57,585 - app - INFO - Scan request received
+2025-12-18 11:13:57,585 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,586 - app - INFO - Cache hit for URL: https://example.com
+2025-12-18 11:13:57,590 - app - INFO - Scan request received
+2025-12-18 11:13:57,590 - app - WARNING - Scan request missing URL
+2025-12-18 11:13:57,594 - app - INFO - Scan request received
+2025-12-18 11:13:57,594 - app - INFO - Scanning URL: not-a-valid-url
+2025-12-18 11:13:57,594 - app - WARNING - Invalid URL format: not-a-valid-url
+2025-12-18 11:13:57,598 - app - INFO - Scan request received
+2025-12-18 11:13:57,598 - app - INFO - Scanning URL: example.com
+2025-12-18 11:13:57,599 - app - WARNING - Invalid URL format: example.com
+2025-12-18 11:13:57,603 - app - INFO - Scan request received
+2025-12-18 11:13:57,603 - app - INFO - Scanning URL: 
+2025-12-18 11:13:57,603 - app - WARNING - Invalid URL format: 
+2025-12-18 11:13:57,609 - app - INFO - Scan request received
+2025-12-18 11:13:57,609 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,610 - app - INFO - Cache miss for URL: https://example.com, calling VirusTotal API
+2025-12-18 11:13:57,610 - app - ERROR - Rate limit error: Rate limit exceeded
+2025-12-18 11:13:57,616 - app - INFO - Scan request received
+2025-12-18 11:13:57,617 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,617 - app - INFO - Cache miss for URL: https://example.com, calling VirusTotal API
+2025-12-18 11:13:57,617 - app - ERROR - VirusTotal API error: API error
+2025-12-18 11:13:57,621 - app - INFO - Scan request received
+2025-12-18 11:13:57,621 - app - ERROR - Unexpected error in scan_url: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/venv/lib/python3.13/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/venv/lib/python3.13/site-packages/flask/json/provider.py", line 188, in loads
+    return json.loads(s, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/venv/lib/python3.13/site-packages/flask/wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/venv/lib/python3.13/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/app.py", line 96, in scan_url
+    data = request.get_json()
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/venv/lib/python3.13/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "/home/lat/Documents/self study/PhishGuard-Serverless/backend/venv/lib/python3.13/site-packages/flask/wrappers.py", line 135, in on_json_loading_failed
+    raise BadRequest() from e
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-12-18 11:13:57,630 - app - INFO - Cache clear request received
+2025-12-18 11:13:57,636 - app - INFO - Cache clear request received
+2025-12-18 11:13:57,637 - app - INFO - Cache cleared, 5 entries removed
+2025-12-18 11:13:57,642 - app - INFO - Cache clear request received
+2025-12-18 11:13:57,643 - app - INFO - Cache cleared, 0 entries removed
+2025-12-18 11:13:57,644 - app - INFO - Cache clear request received
+2025-12-18 11:13:57,644 - app - INFO - Cache cleared, 0 entries removed
+2025-12-18 11:13:57,645 - app - INFO - Cache clear request received
+2025-12-18 11:13:57,645 - app - INFO - Cache cleared, 0 entries removed
+2025-12-18 11:13:57,649 - app - INFO - Cache cleanup request received
+2025-12-18 11:13:57,649 - app - INFO - Cleaned 3 expired cache entries
+2025-12-18 11:13:57,673 - app - INFO - Scan request received
+2025-12-18 11:13:57,673 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,673 - app - INFO - Cache miss for URL: https://example.com, calling VirusTotal API
+2025-12-18 11:13:57,674 - app - INFO - Scan completed and cached for URL: https://example.com
+2025-12-18 11:13:57,680 - app - INFO - Scan request received
+2025-12-18 11:13:57,680 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,680 - app - INFO - Cache miss for URL: https://example.com, calling VirusTotal API
+2025-12-18 11:13:57,680 - app - INFO - Scan completed and cached for URL: https://example.com
+2025-12-18 11:13:57,686 - app - INFO - Scan request received
+2025-12-18 11:13:57,686 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,686 - app - INFO - Cache miss for URL: https://example.com, calling VirusTotal API
+2025-12-18 11:13:57,687 - app - INFO - Scan completed and cached for URL: https://example.com
+2025-12-18 11:13:57,688 - app - INFO - Scan request received
+2025-12-18 11:13:57,688 - app - INFO - Scanning URL: https://example.com
+2025-12-18 11:13:57,688 - app - INFO - Cache hit for URL: https://example.com
+2025-12-18 11:14:02,105 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:02,105 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:02,105 - virustotal - INFO - URL submitted, analysis ID: test-analysis-id
+2025-12-18 11:14:02,105 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:14:07,106 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9leGFtcGxlLmNvbQ
+2025-12-18 11:14:07,106 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 11:14:07,110 - virustotal - INFO - Starting VirusTotal scan for: https://malicious-site.com
+2025-12-18 11:14:07,110 - virustotal - INFO - Submitting URL to VirusTotal: https://malicious-site.com
+2025-12-18 11:14:07,111 - virustotal - INFO - URL submitted, analysis ID: test-analysis-id
+2025-12-18 11:14:07,111 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:14:12,111 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9tYWxpY2lvdXMtc2l0ZS5jb20
+2025-12-18 11:14:12,111 - virustotal - INFO - Scan complete. Status: malicious, Risk: 64
+2025-12-18 11:14:12,118 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:12,118 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:12,118 - virustotal - ERROR - VirusTotal API error: Invalid API key
+2025-12-18 11:14:12,123 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:12,123 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:12,123 - virustotal - INFO - URL submitted, analysis ID: test-analysis-id
+2025-12-18 11:14:12,123 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:14:17,124 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9leGFtcGxlLmNvbQ
+2025-12-18 11:14:17,124 - virustotal - ERROR - VirusTotal API error: URL not found in VirusTotal database
+2025-12-18 11:14:17,128 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:17,129 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:20,129 - virustotal - ERROR - VirusTotal API error: Request timeout
+2025-12-18 11:14:20,143 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:20,143 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:20,144 - virustotal - ERROR - VirusTotal API error: Network error: Connection refused
+2025-12-18 11:14:20,150 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:20,150 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:20,150 - virustotal - WARNING - Rate limit hit, waiting 2 seconds
+2025-12-18 11:14:20,151 - virustotal - INFO - URL submitted, analysis ID: test-analysis-id
+2025-12-18 11:14:20,151 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:14:20,151 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9leGFtcGxlLmNvbQ
+2025-12-18 11:14:20,151 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 11:14:20,156 - virustotal - INFO - Starting VirusTotal scan for: https://example.com
+2025-12-18 11:14:20,157 - virustotal - INFO - Submitting URL to VirusTotal: https://example.com
+2025-12-18 11:14:20,157 - virustotal - WARNING - Rate limit hit, waiting 2 seconds
+2025-12-18 11:14:20,157 - virustotal - WARNING - Rate limit hit, waiting 4 seconds
+2025-12-18 11:14:20,157 - virustotal - WARNING - Rate limit hit, waiting 8 seconds
+2025-12-18 11:14:20,158 - virustotal - ERROR - Rate limit error: Rate limit exceeded after retries
+2025-12-18 11:17:46,418 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/tests/test_api.py', reloading
+2025-12-18 11:17:46,479 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 11:17:46,649 - app - INFO - Logging initialized
+2025-12-18 11:17:46,649 - __main__ - INFO - Application initialized successfully
+2025-12-18 11:17:46,650 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 11:17:46,660 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 11:17:46,663 - werkzeug - INFO -  * Debugger PIN: 976-643-842
+2025-12-18 11:19:23,876 - __main__ - INFO - Scan request received
+2025-12-18 11:19:23,876 - __main__ - INFO - Scanning URL: https://bit.ly/3xYzZ8u
+2025-12-18 11:19:23,879 - __main__ - INFO - Cache miss for URL: https://bit.ly/3xYzZ8u, calling VirusTotal API
+2025-12-18 11:19:23,879 - virustotal - INFO - Starting VirusTotal scan for: https://bit.ly/3xYzZ8u
+2025-12-18 11:19:23,879 - virustotal - INFO - Submitting URL to VirusTotal: https://bit.ly/3xYzZ8u
+2025-12-18 11:19:24,525 - virustotal - INFO - URL submitted, analysis ID: u-1f80f0348b25e390fe7cca4a2ce5363f1aaa951b59f2e1a04cdb28bb2502bd97-b0547adf
+2025-12-18 11:19:24,527 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:19:29,527 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9iaXQubHkvM3hZelo4dQ
+2025-12-18 11:19:31,017 - virustotal - INFO - Scan complete. Status: malicious, Risk: 1
+2025-12-18 11:19:31,018 - __main__ - INFO - Scan completed and cached for URL: https://bit.ly/3xYzZ8u
+2025-12-18 11:19:31,019 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 11:19:31] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 11:21:43,588 - __main__ - INFO - Scan request received
+2025-12-18 11:21:43,588 - __main__ - INFO - Scanning URL: https://youtube.com
+2025-12-18 11:21:43,589 - __main__ - INFO - Cache miss for URL: https://youtube.com, calling VirusTotal API
+2025-12-18 11:21:43,589 - virustotal - INFO - Starting VirusTotal scan for: https://youtube.com
+2025-12-18 11:21:43,589 - virustotal - INFO - Submitting URL to VirusTotal: https://youtube.com
+2025-12-18 11:21:44,260 - virustotal - INFO - URL submitted, analysis ID: u-e1d5e2c7a98d2acd129fd3d137154e7e3e4b9e16ea0b6e20680b67a3a503d13f-c48a9780
+2025-12-18 11:21:44,260 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:21:49,261 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly95b3V0dWJlLmNvbQ
+2025-12-18 11:21:49,781 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 11:21:49,782 - __main__ - INFO - Scan completed and cached for URL: https://youtube.com
+2025-12-18 11:21:49,783 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 11:21:49] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 11:22:54,557 - __main__ - INFO - Scan request received
+2025-12-18 11:22:54,557 - __main__ - INFO - Scanning URL: https://www.pornhub.com/
+2025-12-18 11:22:54,557 - __main__ - INFO - Cache miss for URL: https://www.pornhub.com/, calling VirusTotal API
+2025-12-18 11:22:54,557 - virustotal - INFO - Starting VirusTotal scan for: https://www.pornhub.com/
+2025-12-18 11:22:54,557 - virustotal - INFO - Submitting URL to VirusTotal: https://www.pornhub.com/
+2025-12-18 11:22:55,122 - virustotal - INFO - URL submitted, analysis ID: u-1577ac071e21e37c4dcf244a1e2f73fff7c236557a25d060e58f49f1f7124b1c-2169d45d
+2025-12-18 11:22:55,123 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:23:00,123 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly93d3cucG9ybmh1Yi5jb20v
+2025-12-18 11:23:00,733 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 11:23:00,734 - __main__ - INFO - Scan completed and cached for URL: https://www.pornhub.com/
+2025-12-18 11:23:00,734 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 11:23:00] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 11:31:13,898 - __main__ - INFO - Scan request received
+2025-12-18 11:31:13,898 - __main__ - INFO - Scanning URL: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA
+2025-12-18 11:31:13,898 - __main__ - INFO - Cache miss for URL: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA, calling VirusTotal API
+2025-12-18 11:31:13,899 - virustotal - INFO - Starting VirusTotal scan for: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA
+2025-12-18 11:31:13,899 - virustotal - INFO - Submitting URL to VirusTotal: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA
+2025-12-18 11:31:14,517 - virustotal - INFO - URL submitted, analysis ID: u-1f3b6335814a0bbe690b74eea3ced36e5e91a9aea4efbb70b80e06b8b968cc7e-95cc879a
+2025-12-18 11:31:14,518 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:31:19,518 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw_c2E9dCZzb3VyY2U9d2ViJnJjdD1qJm9waT04OTk3ODQ0OSZ1cmw9aHR0cHM6Ly9zZXh0b3AxLnBhZ2UvdGhlLWxvYWkveG54eCZ2ZWQ9MmFoVUtFd2pPbS1YbnBzYVJBeFVDVEd3R0hkTndDZkFRRm5vRUNBMFFBUSZ1c2c9QU92VmF3M2dsczVfalM2WlBYY3NVdjNYc0xUQQ
+2025-12-18 11:31:20,063 - virustotal - INFO - Scan complete. Status: unknown, Risk: 0
+2025-12-18 11:31:20,065 - __main__ - INFO - Scan completed and cached for URL: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA
+2025-12-18 11:31:20,066 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 11:31:20] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 11:32:24,646 - __main__ - INFO - Scan request received
+2025-12-18 11:32:24,646 - __main__ - INFO - Scanning URL: https://www.pornhub.com
+2025-12-18 11:32:24,647 - __main__ - INFO - Cache miss for URL: https://www.pornhub.com, calling VirusTotal API
+2025-12-18 11:32:24,647 - virustotal - INFO - Starting VirusTotal scan for: https://www.pornhub.com
+2025-12-18 11:32:24,647 - virustotal - INFO - Submitting URL to VirusTotal: https://www.pornhub.com
+2025-12-18 11:32:25,394 - virustotal - INFO - URL submitted, analysis ID: u-1577ac071e21e37c4dcf244a1e2f73fff7c236557a25d060e58f49f1f7124b1c-2169d45d
+2025-12-18 11:32:25,395 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 11:32:30,396 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly93d3cucG9ybmh1Yi5jb20
+2025-12-18 11:32:30,918 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 11:32:30,919 - __main__ - INFO - Scan completed and cached for URL: https://www.pornhub.com
+2025-12-18 11:32:30,920 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 11:32:30] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 13:14:19,222 - __main__ - INFO - Scan request received
+2025-12-18 13:14:19,222 - __main__ - INFO - Scanning URL: https://wmw-amazon-com.loca.lt
+2025-12-18 13:14:19,223 - __main__ - INFO - Cache miss for URL: https://wmw-amazon-com.loca.lt, calling VirusTotal API
+2025-12-18 13:14:19,223 - virustotal - INFO - Starting VirusTotal scan for: https://wmw-amazon-com.loca.lt
+2025-12-18 13:14:19,223 - virustotal - INFO - Submitting URL to VirusTotal: https://wmw-amazon-com.loca.lt
+2025-12-18 13:14:19,900 - virustotal - INFO - URL submitted, analysis ID: u-ebd18d889b66210b7be79ebe432a9ad45f525aa9ea86c4706ef5c64d3846e102-94d27445
+2025-12-18 13:14:19,901 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 13:14:24,902 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly93bXctYW1hem9uLWNvbS5sb2NhLmx0
+2025-12-18 13:14:25,840 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 13:14:25,842 - __main__ - INFO - Scan completed and cached for URL: https://wmw-amazon-com.loca.lt
+2025-12-18 13:14:25,842 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 13:14:25] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 13:31:26,245 - __main__ - INFO - Scan request received
+2025-12-18 13:31:26,245 - __main__ - INFO - Scanning URL: https://wmw-instagram-com.loca.lt/login.html
+2025-12-18 13:31:26,245 - __main__ - INFO - Cache miss for URL: https://wmw-instagram-com.loca.lt/login.html, calling VirusTotal API
+2025-12-18 13:31:26,246 - virustotal - INFO - Starting VirusTotal scan for: https://wmw-instagram-com.loca.lt/login.html
+2025-12-18 13:31:26,246 - virustotal - INFO - Submitting URL to VirusTotal: https://wmw-instagram-com.loca.lt/login.html
+2025-12-18 13:31:27,285 - virustotal - INFO - URL submitted, analysis ID: u-792f71d6a9163195e0fb184a9b1d8f2cfc308b96a2993e8f82fcd09062d8cc05-199d03fa
+2025-12-18 13:31:27,286 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 13:31:32,286 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly93bXctaW5zdGFncmFtLWNvbS5sb2NhLmx0L2xvZ2luLmh0bWw
+2025-12-18 13:31:33,959 - virustotal - INFO - Scan complete. Status: malicious, Risk: 1
+2025-12-18 13:31:33,963 - __main__ - INFO - Scan completed and cached for URL: https://wmw-instagram-com.loca.lt/login.html
+2025-12-18 13:31:33,963 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 13:31:33] "POST /api/scan HTTP/1.1" 200 -

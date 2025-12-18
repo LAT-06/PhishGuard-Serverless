@@ -1,0 +1,186 @@
+{
+  "3ddb8ae6e1903e03bbaf75e4cdb285f5b698a700da3684b643890f240e80b54a": {
+    "url": "https://facebook.com",
+    "result": {
+      "url": "https://facebook.com",
+      "risk_score": 0,
+      "status": "safe",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 26,
+        "total_engines": 98
+      },
+      "categories": [],
+      "scan_date": "2025-12-18T08:15:32",
+      "cached": false,
+      "scanned_at": "2025-12-18T03:30:43.400358"
+    },
+    "cached_at": "2025-12-18T03:30:43.400645",
+    "expires_at": "2025-12-18T04:30:43.400645"
+  },
+  "0244d6d881c5fab1a496641a6ec8311c3b1f53e722e97fed34d495747977dc2c": {
+    "url": "https://pornhub.com",
+    "result": {
+      "url": "https://pornhub.com",
+      "risk_score": 0,
+      "status": "safe",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 28,
+        "total_engines": 98
+      },
+      "categories": [],
+      "scan_date": "2025-12-16T12:52:58",
+      "cached": false,
+      "scanned_at": "2025-12-18T03:47:52.319146"
+    },
+    "cached_at": "2025-12-18T03:47:52.319540",
+    "expires_at": "2025-12-18T04:47:52.319540"
+  },
+  "1f80f0348b25e390fe7cca4a2ce5363f1aaa951b59f2e1a04cdb28bb2502bd97": {
+    "url": "https://bit.ly/3xYzZ8u",
+    "result": {
+      "url": "https://bit.ly/3xYzZ8u",
+      "risk_score": 1,
+      "status": "malicious",
+      "detections": {
+        "malicious": 1,
+        "suspicious": 0,
+        "undetected": 26,
+        "total_engines": 96
+      },
+      "categories": [
+        "phishing"
+      ],
+      "scan_date": "2025-03-14T14:46:37",
+      "cached": false,
+      "scanned_at": "2025-12-18T04:19:31.018307"
+    },
+    "cached_at": "2025-12-18T04:19:31.018600",
+    "expires_at": "2025-12-18T05:19:31.018600"
+  },
+  "1467931a0e8c71b818773f1b3fb9d5031b980753c81c9c135c84c18f38407d5d": {
+    "url": "https://youtube.com",
+    "result": {
+      "url": "https://youtube.com",
+      "risk_score": 0,
+      "status": "safe",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 27,
+        "total_engines": 98
+      },
+      "categories": [],
+      "scan_date": "2025-12-18T11:16:35",
+      "cached": false,
+      "scanned_at": "2025-12-18T04:21:49.782031"
+    },
+    "cached_at": "2025-12-18T04:21:49.782465",
+    "expires_at": "2025-12-18T05:21:49.782465"
+  },
+  "1577ac071e21e37c4dcf244a1e2f73fff7c236557a25d060e58f49f1f7124b1c": {
+    "url": "https://www.pornhub.com/",
+    "result": {
+      "url": "https://www.pornhub.com/",
+      "risk_score": 0,
+      "status": "safe",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 29,
+        "total_engines": 98
+      },
+      "categories": [],
+      "scan_date": "2025-12-18T06:29:39",
+      "cached": false,
+      "scanned_at": "2025-12-18T04:23:00.733517"
+    },
+    "cached_at": "2025-12-18T04:23:00.733816",
+    "expires_at": "2025-12-18T05:23:00.733816"
+  },
+  "1f3b6335814a0bbe690b74eea3ced36e5e91a9aea4efbb70b80e06b8b968cc7e": {
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA",
+    "result": {
+      "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sextop1.page/the-loai/xnxx&ved=2ahUKEwjOm-XnpsaRAxUCTGwGHdNwCfAQFnoECA0QAQ&usg=AOvVaw3gls5_jS6ZPXcsUv3XsLTA",
+      "risk_score": 0,
+      "status": "unknown",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 0,
+        "total_engines": 0
+      },
+      "categories": [],
+      "scan_date": "2025-12-18T04:31:20.063312",
+      "cached": false,
+      "scanned_at": "2025-12-18T04:31:20.063449"
+    },
+    "cached_at": "2025-12-18T04:31:20.063784",
+    "expires_at": "2025-12-18T05:31:20.063784"
+  },
+  "428fee64f7249d15b802857d45f3a2feaa44bb3b870dd187d64cf7ebba3dde8c": {
+    "url": "https://www.pornhub.com",
+    "result": {
+      "url": "https://www.pornhub.com",
+      "risk_score": 0,
+      "status": "safe",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 29,
+        "total_engines": 98
+      },
+      "categories": [],
+      "scan_date": "2025-12-18T11:22:54",
+      "cached": false,
+      "scanned_at": "2025-12-18T04:32:30.919061"
+    },
+    "cached_at": "2025-12-18T04:32:30.919408",
+    "expires_at": "2025-12-18T05:32:30.919408"
+  },
+  "04a7220113ba50ec087057b23464e21c4496124d6bbf36dfb95807c3d5fb667a": {
+    "url": "https://wmw-amazon-com.loca.lt",
+    "result": {
+      "url": "https://wmw-amazon-com.loca.lt",
+      "risk_score": 0,
+      "status": "safe",
+      "detections": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 28,
+        "total_engines": 96
+      },
+      "categories": [],
+      "scan_date": "2025-03-02T01:46:26",
+      "cached": false,
+      "scanned_at": "2025-12-18T06:14:25.841192"
+    },
+    "cached_at": "2025-12-18T06:14:25.841549",
+    "expires_at": "2025-12-18T07:14:25.841549"
+  },
+  "792f71d6a9163195e0fb184a9b1d8f2cfc308b96a2993e8f82fcd09062d8cc05": {
+    "url": "https://wmw-instagram-com.loca.lt/login.html",
+    "result": {
+      "url": "https://wmw-instagram-com.loca.lt/login.html",
+      "risk_score": 1,
+      "status": "malicious",
+      "detections": {
+        "malicious": 1,
+        "suspicious": 0,
+        "undetected": 29,
+        "total_engines": 97
+      },
+      "categories": [
+        "phishing"
+      ],
+      "scan_date": "2025-08-24T05:24:42",
+      "cached": false,
+      "scanned_at": "2025-12-18T06:31:33.962164"
+    },
+    "cached_at": "2025-12-18T06:31:33.962620",
+    "expires_at": "2025-12-18T07:31:33.962620"
+  }
+}
