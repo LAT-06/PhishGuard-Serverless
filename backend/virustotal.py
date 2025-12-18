@@ -120,14 +120,22 @@ class VirusTotalScanner:
             risk_score = 0
             status = "unknown"
         else:
-            detection_rate = (malicious + suspicious) / total_engines
-            risk_score = int(detection_rate * 100)
-            
-            if malicious > 0:
+            # Threshold-based scoring: prioritize detection counts over percentages
+            # Phishing detection uses "Guilty until proven innocent" approach
+            if malicious >= 2:
+                # If 2+ engines flag it, it's almost certainly malicious
+                # Score: 90 + (add more for each extra detection, max 100)
+                risk_score = min(90 + (malicious * 2), 100)
                 status = "malicious"
-            elif suspicious > 0:
+            elif malicious == 1 or suspicious >= 2:
+                # If 1 engine flags it, it's suspicious but could be false positive
+                risk_score = 75
                 status = "suspicious"
+            elif suspicious == 1:
+                risk_score = 40
+                status = "warning"
             else:
+                risk_score = 0
                 status = "safe"
         
         categories = []

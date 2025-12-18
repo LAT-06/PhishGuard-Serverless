@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -7,10 +9,18 @@ from datetime import datetime
 from config import Config
 from cache import CacheManager
 from virustotal import VirusTotalScanner, VirusTotalAPIError, VirusTotalRateLimitError
+from validators import is_safe_url, validate_url_format
 
 app = Flask(__name__)
 CORS(app)
 app.config.from_object(Config)
+
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://"
+)
 
 
 def setup_logging():
@@ -89,6 +99,7 @@ def health_check():
 
 
 @app.route('/api/scan', methods=['POST'])
+@limiter.limit("5 per minute")
 def scan_url():
     logger.info("Scan request received")
     
@@ -105,11 +116,22 @@ def scan_url():
         url = data['url'].strip()
         logger.info(f"Scanning URL: {url}")
         
-        if not url.startswith(('http://', 'https://')):
-            logger.warning(f"Invalid URL format: {url}")
+        # Basic format validation
+        is_valid_format, format_error = validate_url_format(url)
+        if not is_valid_format:
+            logger.warning(f"Invalid URL format: {url} - {format_error}")
             return jsonify({
                 'success': False,
-                'error': 'URL must start with http:// or https://'
+                'error': format_error
+            }), 400
+        
+        # SSRF protection
+        is_safe, safety_error = is_safe_url(url)
+        if not is_safe:
+            logger.warning(f"Unsafe URL detected: {url} - {safety_error}")
+            return jsonify({
+                'success': False,
+                'error': safety_error
             }), 400
         
         url_hash = cache_manager.generate_url_hash(url)
