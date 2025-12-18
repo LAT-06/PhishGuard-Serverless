@@ -59,3 +59,5 @@ note.txt
 prompt_requirement.txt
 Phising_Guard.drawio
 Phising_Guard.png
+
+logs/*.log

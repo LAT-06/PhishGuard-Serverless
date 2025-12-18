@@ -118,8 +118,9 @@ import { ref, computed } from "vue";
 import axios from "axios";
 
 // API Configuration
-// Using relative path so Vite proxy will handle routing to backend
-const API_BASE_URL = "/api";
+// Use environment variable for API URL (supports local dev and production)
+// Fallback to relative path for Vite proxy in development
+const API_BASE_URL = import.meta.env.VITE_API_URL || "/api";
 
 // ============================================================================
 // Reactive State
@@ -146,18 +147,33 @@ const isValidUrl = computed(() => {
   }
 });
 
-// Determine CSS class based on risk score
+// Determine CSS class based on detections AND score
+// PRIORITY: Trust detection counts more than the score
 const riskClass = computed(() => {
   if (!result.value) return "";
+
+  const maliciousCount = result.value.detections.malicious;
+
+  // Force RED if any engine detects it as malicious
+  if (maliciousCount >= 1) return "malicious";
+  if (result.value.detections.suspicious >= 1) return "suspicious";
+
+  // Fallback to score for edge cases
   const score = result.value.risk_score;
-  if (score <= 30) return "safe";
-  if (score <= 60) return "suspicious";
-  return "malicious";
+  if (score > 60) return "malicious";
+  if (score > 30) return "suspicious";
+  return "safe";
 });
 
-// Generate risk label with emoji
+// Generate risk label based on detections
 const riskLabel = computed(() => {
   if (!result.value) return "";
+
+  const maliciousCount = result.value.detections.malicious;
+
+  if (maliciousCount >= 2) return "Malicious";
+  if (maliciousCount === 1) return "High Risk";
+
   const score = result.value.risk_score;
   if (score <= 30) return "Safe";
   if (score <= 60) return "Suspicious";
@@ -167,6 +183,16 @@ const riskLabel = computed(() => {
 // Generate contextual recommendation
 const recommendation = computed(() => {
   if (!result.value) return "";
+
+  const maliciousCount = result.value.detections.malicious;
+
+  // If ANY engine flags it as malicious, show strong warning
+  if (maliciousCount > 0) {
+    return `Warning: ${maliciousCount} security vendor${
+      maliciousCount > 1 ? "s" : ""
+    } flagged this URL. Do NOT visit this link.`;
+  }
+
   const score = result.value.risk_score;
   if (score <= 30) {
     return "This URL appears to be safe. However, always exercise caution when sharing personal information.";
@@ -290,7 +316,7 @@ const formatDate = (dateString) => {
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 10px;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .header p {
@@ -483,7 +509,6 @@ const formatDate = (dateString) => {
   color: #e68200;
   text-decoration: none;
 }
-
 
 .url-display a:hover {
   color: #e68200;

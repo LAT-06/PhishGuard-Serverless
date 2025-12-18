@@ -323,3 +323,80 @@ werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a r
 2025-12-18 13:31:33,959 - virustotal - INFO - Scan complete. Status: malicious, Risk: 1
 2025-12-18 13:31:33,963 - __main__ - INFO - Scan completed and cached for URL: https://wmw-instagram-com.loca.lt/login.html
 2025-12-18 13:31:33,963 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 13:31:33] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 15:15:45,696 - app - INFO - Logging initialized
+2025-12-18 15:15:45,696 - __main__ - INFO - Application initialized successfully
+2025-12-18 15:15:45,697 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 15:15:45,714 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.216.198.254:5000
+2025-12-18 15:15:45,714 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-18 15:15:45,715 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 15:15:45,879 - app - INFO - Logging initialized
+2025-12-18 15:15:45,879 - __main__ - INFO - Application initialized successfully
+2025-12-18 15:15:45,881 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 15:15:45,890 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 15:15:45,894 - werkzeug - INFO -  * Debugger PIN: 316-089-119
+2025-12-18 15:16:00,468 - __main__ - INFO - Scan request received
+2025-12-18 15:16:00,469 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 15:16:00,469 - __main__ - INFO - Cache miss for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html, calling VirusTotal API
+2025-12-18 15:16:00,469 - virustotal - INFO - Starting VirusTotal scan for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 15:16:00,469 - virustotal - INFO - Submitting URL to VirusTotal: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 15:16:01,070 - virustotal - INFO - URL submitted, analysis ID: u-b96895faada848f1fcbf141c546d01a5dacea0251c5c95303132cb2031d805c1-0e25ac24
+2025-12-18 15:16:01,071 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 15:16:06,071 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9kb2lxdWFzdWtpZW4uY29tL2w0UXpBdDBUTjZlamhzSmNINVJYR2xvcW1TMTdqUUtWWHl4RGE3M0ozWVZXUGhBcnI0YW95Z3QxUUxrbUdTVUZCNExBcEo4RFpzc0FrWXZxY0gxbnIxNGtaWFY1cXJWSTNEcURzaEFzbk9kWWRVeWE5Tk9tUGcwQW5ZM0F4eUR1cEtwQ3o0V3pVcXdnb2ZqNk56b0dtZWhJMHB3ZzlwbGZWeU1obVBEUVpNR2FnVk1JeTVPZnpHWUVTWDlPVUxmWVhrcG5rSkRISDNlRGNVZThNNjdkVVlZVzN3SlJ6R29QcUdELmh0bWw
+2025-12-18 15:16:06,580 - virustotal - INFO - Scan complete. Status: malicious, Risk: 15
+2025-12-18 15:16:06,582 - __main__ - INFO - Scan completed and cached for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 15:16:06,582 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 15:16:06] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 15:46:36,731 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/cache.py', reloading
+2025-12-18 15:46:36,810 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 15:55:08,579 - app - INFO - Logging initialized
+2025-12-18 15:55:08,579 - __main__ - INFO - Application initialized successfully
+2025-12-18 15:55:08,581 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 15:55:08,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.216.198.254:5000
+2025-12-18 15:55:08,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-18 15:55:08,592 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 15:55:08,777 - app - INFO - Logging initialized
+2025-12-18 15:55:08,777 - __main__ - INFO - Application initialized successfully
+2025-12-18 15:55:08,778 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 15:55:08,786 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 15:55:08,788 - werkzeug - INFO -  * Debugger PIN: 541-246-786
+2025-12-18 15:55:19,325 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 15:55:19] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-18 15:55:19,330 - __main__ - INFO - Scan request received
+2025-12-18 15:55:19,331 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 15:55:19,376 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 15:55:19,376 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 15:55:19] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 16:01:51,527 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/virustotal.py', reloading
+2025-12-18 16:01:51,569 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 16:01:51,740 - app - INFO - Logging initialized
+2025-12-18 16:01:51,740 - __main__ - INFO - Application initialized successfully
+2025-12-18 16:01:51,741 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 16:01:51,751 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 16:01:51,753 - werkzeug - INFO -  * Debugger PIN: 541-246-786
+2025-12-18 16:04:41,951 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 16:04:41] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-18 16:04:41,956 - __main__ - INFO - Scan request received
+2025-12-18 16:04:41,956 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 16:04:42,000 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-18 16:04:42,000 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 16:04:42] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 16:05:01,717 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 16:05:01] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-18 16:05:01,974 - __main__ - INFO - Scan request received
+2025-12-18 16:05:01,974 - __main__ - INFO - Scanning URL: https://www.facebook.com
+2025-12-18 16:05:02,010 - __main__ - INFO - Cache miss for URL: https://www.facebook.com, calling VirusTotal API
+2025-12-18 16:05:02,010 - virustotal - INFO - Starting VirusTotal scan for: https://www.facebook.com
+2025-12-18 16:05:02,010 - virustotal - INFO - Submitting URL to VirusTotal: https://www.facebook.com
+2025-12-18 16:05:04,057 - virustotal - INFO - URL submitted, analysis ID: u-0b2df0f635584f42c895f1d7b9cd105d3106accd9804d30556da88ae1bb0d62c-609597eb
+2025-12-18 16:05:04,058 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-18 16:05:09,059 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly93d3cuZmFjZWJvb2suY29t
+2025-12-18 16:05:09,851 - virustotal - INFO - Scan complete. Status: safe, Risk: 0
+2025-12-18 16:05:09,854 - __main__ - INFO - Scan completed and cached for URL: https://www.facebook.com
+2025-12-18 16:05:09,854 - werkzeug - INFO - 127.0.0.1 - - [18/Dec/2025 16:05:09] "POST /api/scan HTTP/1.1" 200 -
+2025-12-18 16:06:13,237 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/virustotal.py', reloading
+2025-12-18 16:06:13,289 - werkzeug - INFO -  * Restarting with stat
+2025-12-18 16:06:13,442 - app - INFO - Logging initialized
+2025-12-18 16:06:13,442 - __main__ - INFO - Application initialized successfully
+2025-12-18 16:06:13,443 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-18 16:06:13,449 - werkzeug - WARNING -  * Debugger is active!
+2025-12-18 16:06:13,451 - werkzeug - INFO -  * Debugger PIN: 541-246-786
