@@ -400,3 +400,424 @@ werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a r
 2025-12-18 16:06:13,443 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
 2025-12-18 16:06:13,449 - werkzeug - WARNING -  * Debugger is active!
 2025-12-18 16:06:13,451 - werkzeug - INFO -  * Debugger PIN: 541-246-786
+2025-12-22 14:57:58,706 - app - INFO - Logging initialized
+2025-12-22 14:57:58,706 - __main__ - INFO - Application initialized successfully
+2025-12-22 14:57:58,707 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 14:57:58,732 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2025-12-22 14:57:58,732 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-22 14:57:58,732 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 14:57:58,904 - app - INFO - Logging initialized
+2025-12-22 14:57:58,904 - __main__ - INFO - Application initialized successfully
+2025-12-22 14:57:58,905 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 14:57:58,911 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 14:57:58,916 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 14:58:46,557 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 14:58:46] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 14:58:46,567 - __main__ - INFO - Scan request received
+2025-12-22 14:58:46,568 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 14:58:46,932 - __main__ - INFO - Cache miss for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html, calling VirusTotal API
+2025-12-22 14:58:46,932 - virustotal - INFO - Starting VirusTotal scan for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 14:58:46,932 - virustotal - INFO - Submitting URL to VirusTotal: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 14:58:47,583 - virustotal - INFO - URL submitted, analysis ID: u-b96895faada848f1fcbf141c546d01a5dacea0251c5c95303132cb2031d805c1-30c1ef98
+2025-12-22 14:58:47,584 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-22 14:58:52,584 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9kb2lxdWFzdWtpZW4uY29tL2w0UXpBdDBUTjZlamhzSmNINVJYR2xvcW1TMTdqUUtWWHl4RGE3M0ozWVZXUGhBcnI0YW95Z3QxUUxrbUdTVUZCNExBcEo4RFpzc0FrWXZxY0gxbnIxNGtaWFY1cXJWSTNEcURzaEFzbk9kWWRVeWE5Tk9tUGcwQW5ZM0F4eUR1cEtwQ3o0V3pVcXdnb2ZqNk56b0dtZWhJMHB3ZzlwbGZWeU1obVBEUVpNR2FnVk1JeTVPZnpHWUVTWDlPVUxmWVhrcG5rSkRISDNlRGNVZThNNjdkVVlZVzN3SlJ6R29QcUdELmh0bWw
+2025-12-22 14:58:53,203 - virustotal - INFO - Scan complete. Status: malicious, Risk: 100
+2025-12-22 14:58:53,203 - __main__ - INFO - Fetching domain info for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 14:58:55,876 - __main__ - INFO - Scan completed and cached for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 14:58:55,876 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 14:58:55] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 15:10:50,217 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/infrastructure.py', reloading
+2025-12-22 15:10:50,270 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 15:10:50,510 - app - INFO - Logging initialized
+2025-12-22 15:10:50,510 - __main__ - INFO - Application initialized successfully
+2025-12-22 15:10:50,512 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 15:10:50,521 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 15:10:50,524 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 15:13:57,752 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/screenshot.py', reloading
+2025-12-22 15:13:57,855 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 15:13:58,095 - app - INFO - Logging initialized
+2025-12-22 15:13:58,095 - __main__ - INFO - Application initialized successfully
+2025-12-22 15:13:58,096 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 15:13:58,107 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 15:13:58,109 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 15:14:28,155 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/app.py', reloading
+2025-12-22 15:14:28,288 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 15:14:28,602 - app - INFO - Logging initialized
+2025-12-22 15:14:28,603 - __main__ - INFO - Application initialized successfully
+2025-12-22 15:14:28,605 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 15:14:28,614 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 15:14:28,616 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 15:17:15,836 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/app.py', reloading
+2025-12-22 15:17:15,909 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 15:17:16,193 - app - INFO - Logging initialized
+2025-12-22 15:17:16,194 - __main__ - INFO - Application initialized successfully
+2025-12-22 15:17:16,195 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 15:17:16,203 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 15:17:16,206 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 15:17:27,553 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:17:27] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 15:17:27,556 - __main__ - INFO - Scan request received
+2025-12-22 15:17:27,556 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:17:27,789 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:17:27,790 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:17:27] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 15:17:33,895 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:17:33] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:17:33,897 - __main__ - INFO - Screenshot request received
+2025-12-22 15:17:33,897 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: both)
+2025-12-22 15:17:33,903 - screenshot - INFO - Capturing screenshots with both browsers for https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:17:33,903 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using chrome
+2025-12-22 15:17:33,903 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 15:17:33,911 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:17:34,244 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-12-22 15:17:34,515 - WDM - INFO - Driver downloading response is 200
+2025-12-22 15:17:35,390 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:17:35,695 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:17:35,912 - WDM - INFO - Driver has been saved in cache [/home/lat/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-12-22 15:17:36,255 - screenshot - ERROR - Failed to initialize Chrome driver: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5596a31574e3 <unknown>
+#1 0x5596a2e86c76 <unknown>
+#2 0x5596a2eb404a <unknown>
+#3 0x5596a2eaf4a1 <unknown>
+#4 0x5596a2eac029 <unknown>
+#5 0x5596a2eeaccc <unknown>
+#6 0x5596a2eea47f <unknown>
+#7 0x5596a2ee1de3 <unknown>
+#8 0x5596a2eb72dd <unknown>
+#9 0x5596a2eb834e <unknown>
+#10 0x5596a31173e4 <unknown>
+#11 0x5596a311b3d7 <unknown>
+#12 0x5596a3125b20 <unknown>
+#13 0x5596a311c023 <unknown>
+#14 0x5596a30ea1aa <unknown>
+#15 0x5596a31406b8 <unknown>
+#16 0x5596a3140847 <unknown>
+#17 0x5596a3150243 <unknown>
+#18 0x7fb6727b8b7b <unknown>
+
+2025-12-22 15:17:36,256 - screenshot - ERROR - WebDriver error: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5596a31574e3 <unknown>
+#1 0x5596a2e86c76 <unknown>
+#2 0x5596a2eb404a <unknown>
+#3 0x5596a2eaf4a1 <unknown>
+#4 0x5596a2eac029 <unknown>
+#5 0x5596a2eeaccc <unknown>
+#6 0x5596a2eea47f <unknown>
+#7 0x5596a2ee1de3 <unknown>
+#8 0x5596a2eb72dd <unknown>
+#9 0x5596a2eb834e <unknown>
+#10 0x5596a31173e4 <unknown>
+#11 0x5596a311b3d7 <unknown>
+#12 0x5596a3125b20 <unknown>
+#13 0x5596a311c023 <unknown>
+#14 0x5596a30ea1aa <unknown>
+#15 0x5596a31406b8 <unknown>
+#16 0x5596a3140847 <unknown>
+#17 0x5596a3150243 <unknown>
+#18 0x7fb6727b8b7b <unknown>
+
+2025-12-22 15:17:36,256 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 15:17:36,256 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 15:17:36,337 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 15:17:37,063 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 15:17:37,197 - WDM - INFO - There is no [linux64] geckodriver "v0.36.0" for browser firefox "140.5" in cache
+2025-12-22 15:17:37,197 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 15:17:37,333 - WDM - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-22 15:17:37,982 - WDM - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-22 15:17:38,239 - WDM - INFO - Driver downloading response is 200
+2025-12-22 15:17:38,509 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 15:17:38,696 - WDM - INFO - Driver has been saved in cache [/home/lat/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-22 15:17:41,820 - screenshot - INFO - Successfully captured screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 15:17:43,163 - __main__ - INFO - Screenshots captured with both browsers for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:17:43,170 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:17:43] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:38:03,147 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:03] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 15:38:03,153 - __main__ - INFO - Scan request received
+2025-12-22 15:38:03,153 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:38:03,459 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:38:03,460 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:03] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 15:38:06,018 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:06] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:38:06,030 - __main__ - INFO - Screenshot request received
+2025-12-22 15:38:06,030 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: firefox)
+2025-12-22 15:38:06,036 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 15:38:06,037 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 15:38:06,105 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 15:38:06,932 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 15:38:07,076 - WDM - INFO - Driver [/home/lat/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2025-12-22 15:38:10,442 - screenshot - INFO - Successfully captured screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 15:38:11,435 - __main__ - INFO - Screenshot captured with firefox for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:38:11,442 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:11] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:38:26,903 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:26] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 15:38:26,965 - __main__ - INFO - Scan request received
+2025-12-22 15:38:26,965 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:38:26,973 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:38:26,974 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:26] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 15:38:29,553 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:29] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:38:29,559 - __main__ - INFO - Screenshot request received
+2025-12-22 15:38:29,559 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: chrome)
+2025-12-22 15:38:29,565 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using chrome
+2025-12-22 15:38:29,565 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 15:38:29,574 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:38:29,875 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-12-22 15:38:30,162 - WDM - INFO - Driver downloading response is 200
+2025-12-22 15:38:31,226 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:38:31,524 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:38:31,750 - WDM - INFO - Driver has been saved in cache [/home/lat/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-12-22 15:38:32,190 - screenshot - ERROR - Failed to initialize Chrome driver: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5563c219c4e3 <unknown>
+#1 0x5563c1ecbc76 <unknown>
+#2 0x5563c1ef904a <unknown>
+#3 0x5563c1ef44a1 <unknown>
+#4 0x5563c1ef1029 <unknown>
+#5 0x5563c1f2fccc <unknown>
+#6 0x5563c1f2f47f <unknown>
+#7 0x5563c1f26de3 <unknown>
+#8 0x5563c1efc2dd <unknown>
+#9 0x5563c1efd34e <unknown>
+#10 0x5563c215c3e4 <unknown>
+#11 0x5563c21603d7 <unknown>
+#12 0x5563c216ab20 <unknown>
+#13 0x5563c2161023 <unknown>
+#14 0x5563c212f1aa <unknown>
+#15 0x5563c21856b8 <unknown>
+#16 0x5563c2185847 <unknown>
+#17 0x5563c2195243 <unknown>
+#18 0x7eff402ccb7b <unknown>
+
+2025-12-22 15:38:32,190 - screenshot - ERROR - WebDriver error: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5563c219c4e3 <unknown>
+#1 0x5563c1ecbc76 <unknown>
+#2 0x5563c1ef904a <unknown>
+#3 0x5563c1ef44a1 <unknown>
+#4 0x5563c1ef1029 <unknown>
+#5 0x5563c1f2fccc <unknown>
+#6 0x5563c1f2f47f <unknown>
+#7 0x5563c1f26de3 <unknown>
+#8 0x5563c1efc2dd <unknown>
+#9 0x5563c1efd34e <unknown>
+#10 0x5563c215c3e4 <unknown>
+#11 0x5563c21603d7 <unknown>
+#12 0x5563c216ab20 <unknown>
+#13 0x5563c2161023 <unknown>
+#14 0x5563c212f1aa <unknown>
+#15 0x5563c21856b8 <unknown>
+#16 0x5563c2185847 <unknown>
+#17 0x5563c2195243 <unknown>
+#18 0x7eff402ccb7b <unknown>
+
+2025-12-22 15:38:32,190 - __main__ - INFO - Screenshot captured with chrome for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:38:32,190 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:38:32] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:39:20,041 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:39:20] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 15:39:20,046 - __main__ - INFO - Scan request received
+2025-12-22 15:39:20,046 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:39:20,055 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:39:20,055 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:39:20] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 15:44:28,103 - app - INFO - Logging initialized
+2025-12-22 15:44:28,103 - app - INFO - Application initialized successfully
+2025-12-22 15:47:43,214 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:47:43] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 15:47:43,238 - __main__ - INFO - Scan request received
+2025-12-22 15:47:43,238 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:47:43,335 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:47:43,335 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:47:43] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 15:47:45,543 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:47:45] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:47:45,548 - __main__ - INFO - Screenshot request received
+2025-12-22 15:47:45,549 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: chrome)
+2025-12-22 15:47:45,555 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using chrome
+2025-12-22 15:47:45,555 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 15:47:45,561 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:47:45,929 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-12-22 15:47:46,191 - WDM - INFO - Driver downloading response is 200
+2025-12-22 15:47:47,325 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:47:47,686 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 15:47:47,972 - WDM - INFO - Driver has been saved in cache [/home/lat/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-12-22 15:47:48,433 - screenshot - ERROR - Failed to initialize Chrome driver: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55f61994f4e3 <unknown>
+#1 0x55f61967ec76 <unknown>
+#2 0x55f6196ac04a <unknown>
+#3 0x55f6196a74a1 <unknown>
+#4 0x55f6196a4029 <unknown>
+#5 0x55f6196e2ccc <unknown>
+#6 0x55f6196e247f <unknown>
+#7 0x55f6196d9de3 <unknown>
+#8 0x55f6196af2dd <unknown>
+#9 0x55f6196b034e <unknown>
+#10 0x55f61990f3e4 <unknown>
+#11 0x55f6199133d7 <unknown>
+#12 0x55f61991db20 <unknown>
+#13 0x55f619914023 <unknown>
+#14 0x55f6198e21aa <unknown>
+#15 0x55f6199386b8 <unknown>
+#16 0x55f619938847 <unknown>
+#17 0x55f619948243 <unknown>
+#18 0x7f91132e0b7b <unknown>
+
+2025-12-22 15:47:48,433 - screenshot - ERROR - WebDriver error: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55f61994f4e3 <unknown>
+#1 0x55f61967ec76 <unknown>
+#2 0x55f6196ac04a <unknown>
+#3 0x55f6196a74a1 <unknown>
+#4 0x55f6196a4029 <unknown>
+#5 0x55f6196e2ccc <unknown>
+#6 0x55f6196e247f <unknown>
+#7 0x55f6196d9de3 <unknown>
+#8 0x55f6196af2dd <unknown>
+#9 0x55f6196b034e <unknown>
+#10 0x55f61990f3e4 <unknown>
+#11 0x55f6199133d7 <unknown>
+#12 0x55f61991db20 <unknown>
+#13 0x55f619914023 <unknown>
+#14 0x55f6198e21aa <unknown>
+#15 0x55f6199386b8 <unknown>
+#16 0x55f619938847 <unknown>
+#17 0x55f619948243 <unknown>
+#18 0x7f91132e0b7b <unknown>
+
+2025-12-22 15:47:48,434 - __main__ - INFO - Screenshot captured with chrome for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:47:48,434 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:47:48] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 15:59:35,664 - app - INFO - Logging initialized
+2025-12-22 15:59:35,664 - __main__ - INFO - Application initialized successfully
+2025-12-22 15:59:35,666 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 15:59:35,681 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2025-12-22 15:59:35,681 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-22 15:59:35,682 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 15:59:35,884 - app - INFO - Logging initialized
+2025-12-22 15:59:35,884 - __main__ - INFO - Application initialized successfully
+2025-12-22 15:59:35,886 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 15:59:35,891 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 15:59:35,898 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 15:59:49,201 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:59:49] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 15:59:49,207 - __main__ - INFO - Scan request received
+2025-12-22 15:59:49,207 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:59:49,460 - __main__ - INFO - Cache miss for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html, calling VirusTotal API
+2025-12-22 15:59:49,460 - virustotal - INFO - Starting VirusTotal scan for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:59:49,460 - virustotal - INFO - Submitting URL to VirusTotal: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:59:50,295 - virustotal - INFO - URL submitted, analysis ID: u-b96895faada848f1fcbf141c546d01a5dacea0251c5c95303132cb2031d805c1-0f1f3bb4
+2025-12-22 15:59:50,295 - virustotal - INFO - Waiting 5 seconds for VirusTotal processing
+2025-12-22 15:59:55,296 - virustotal - INFO - Retrieving analysis results for: aHR0cHM6Ly9kb2lxdWFzdWtpZW4uY29tL2w0UXpBdDBUTjZlamhzSmNINVJYR2xvcW1TMTdqUUtWWHl4RGE3M0ozWVZXUGhBcnI0YW95Z3QxUUxrbUdTVUZCNExBcEo4RFpzc0FrWXZxY0gxbnIxNGtaWFY1cXJWSTNEcURzaEFzbk9kWWRVeWE5Tk9tUGcwQW5ZM0F4eUR1cEtwQ3o0V3pVcXdnb2ZqNk56b0dtZWhJMHB3ZzlwbGZWeU1obVBEUVpNR2FnVk1JeTVPZnpHWUVTWDlPVUxmWVhrcG5rSkRISDNlRGNVZThNNjdkVVlZVzN3SlJ6R29QcUdELmh0bWw
+2025-12-22 15:59:55,924 - virustotal - INFO - Scan complete. Status: malicious, Risk: 100
+2025-12-22 15:59:55,924 - __main__ - INFO - Fetching domain info for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:59:58,863 - __main__ - INFO - Scan completed and cached for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 15:59:58,863 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 15:59:58] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 16:00:00,573 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:00:00] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 16:00:00,578 - __main__ - INFO - Screenshot request received
+2025-12-22 16:00:00,578 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: chrome)
+2025-12-22 16:00:00,586 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using chrome
+2025-12-22 16:00:00,586 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 16:00:00,595 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 16:00:00,907 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-12-22 16:00:01,160 - WDM - INFO - Driver downloading response is 200
+2025-12-22 16:00:02,106 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 16:00:02,502 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-22 16:00:02,808 - WDM - INFO - Driver has been saved in cache [/home/lat/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-12-22 16:00:03,299 - screenshot - ERROR - Failed to initialize Chrome driver: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x556793b504e3 <unknown>
+#1 0x55679387fc76 <unknown>
+#2 0x5567938ad04a <unknown>
+#3 0x5567938a84a1 <unknown>
+#4 0x5567938a5029 <unknown>
+#5 0x5567938e3ccc <unknown>
+#6 0x5567938e347f <unknown>
+#7 0x5567938dade3 <unknown>
+#8 0x5567938b02dd <unknown>
+#9 0x5567938b134e <unknown>
+#10 0x556793b103e4 <unknown>
+#11 0x556793b143d7 <unknown>
+#12 0x556793b1eb20 <unknown>
+#13 0x556793b15023 <unknown>
+#14 0x556793ae31aa <unknown>
+#15 0x556793b396b8 <unknown>
+#16 0x556793b39847 <unknown>
+#17 0x556793b49243 <unknown>
+#18 0x7f0fb75deb7b <unknown>
+
+2025-12-22 16:00:03,299 - screenshot - ERROR - WebDriver error: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 142.0.7444.175 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x556793b504e3 <unknown>
+#1 0x55679387fc76 <unknown>
+#2 0x5567938ad04a <unknown>
+#3 0x5567938a84a1 <unknown>
+#4 0x5567938a5029 <unknown>
+#5 0x5567938e3ccc <unknown>
+#6 0x5567938e347f <unknown>
+#7 0x5567938dade3 <unknown>
+#8 0x5567938b02dd <unknown>
+#9 0x5567938b134e <unknown>
+#10 0x556793b103e4 <unknown>
+#11 0x556793b143d7 <unknown>
+#12 0x556793b1eb20 <unknown>
+#13 0x556793b15023 <unknown>
+#14 0x556793ae31aa <unknown>
+#15 0x556793b396b8 <unknown>
+#16 0x556793b39847 <unknown>
+#17 0x556793b49243 <unknown>
+#18 0x7f0fb75deb7b <unknown>
+
+2025-12-22 16:00:03,299 - __main__ - INFO - Screenshot captured with chrome for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:00:03,299 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:00:03] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 16:00:23,270 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:00:23] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 16:00:23,275 - __main__ - INFO - Scan request received
+2025-12-22 16:00:23,276 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:00:23,286 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:00:23,286 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:00:23] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 16:00:24,903 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:00:24] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 16:00:24,909 - __main__ - INFO - Screenshot request received
+2025-12-22 16:00:24,909 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: firefox)
+2025-12-22 16:00:24,917 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 16:00:24,917 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 16:00:25,016 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 16:00:28,870 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 16:00:29,006 - WDM - INFO - There is no [linux64] geckodriver "v0.36.0" for browser firefox "140.5" in cache
+2025-12-22 16:00:29,007 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 16:00:29,139 - WDM - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-22 16:00:29,613 - WDM - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-22 16:00:29,863 - WDM - INFO - Driver downloading response is 200
+2025-12-22 16:00:30,140 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 16:00:30,326 - WDM - INFO - Driver has been saved in cache [/home/lat/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-22 16:00:33,318 - screenshot - INFO - Successfully captured screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 16:00:34,661 - __main__ - INFO - Screenshot captured with firefox for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:00:34,668 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:00:34] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 16:02:57,163 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/threat_intelligence.py', reloading
+2025-12-22 16:02:57,230 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 16:02:57,534 - app - INFO - Logging initialized
+2025-12-22 16:02:57,535 - __main__ - INFO - Application initialized successfully
+2025-12-22 16:02:57,536 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 16:02:57,548 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 16:02:57,550 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 16:03:29,594 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/app.py', reloading
+2025-12-22 16:03:29,660 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 16:03:29,947 - app - INFO - Logging initialized
+2025-12-22 16:03:29,948 - __main__ - INFO - Application initialized successfully
+2025-12-22 16:03:29,949 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 16:03:29,956 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 16:03:29,958 - werkzeug - INFO -  * Debugger PIN: 305-939-546
+2025-12-22 16:07:21,537 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:07:21] "OPTIONS /api/scan HTTP/1.1" 200 -
+2025-12-22 16:07:21,544 - __main__ - INFO - Scan request received
+2025-12-22 16:07:21,544 - __main__ - INFO - Scanning URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:07:21,588 - __main__ - INFO - Cache hit for URL: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:07:21,589 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:07:21] "POST /api/scan HTTP/1.1" 200 -
+2025-12-22 16:07:37,143 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:07:37] "OPTIONS /api/screenshot HTTP/1.1" 200 -
+2025-12-22 16:07:37,146 - __main__ - INFO - Screenshot request received
+2025-12-22 16:07:37,147 - __main__ - INFO - Capturing screenshot of: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html (browser: firefox)
+2025-12-22 16:07:37,232 - screenshot - INFO - Capturing screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 16:07:37,232 - WDM - INFO - ====== WebDriver manager ======
+2025-12-22 16:07:37,280 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 16:07:37,763 - WDM - INFO - Get LATEST geckodriver version for 140.5 firefox
+2025-12-22 16:07:38,787 - WDM - INFO - Driver [/home/lat/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2025-12-22 16:07:42,107 - screenshot - INFO - Successfully captured screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
+2025-12-22 16:07:43,067 - __main__ - INFO - Screenshot captured with firefox for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
+2025-12-22 16:07:43,076 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:07:43] "POST /api/screenshot HTTP/1.1" 200 -

@@ -183,30 +183,6 @@
     "cached_at": "2025-12-18T06:31:33.962620",
     "expires_at": "2025-12-18T07:31:33.962620"
   },
-  "b96895faada848f1fcbf141c546d01a5dacea0251c5c95303132cb2031d805c1": {
-    "url": "https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html",
-    "result": {
-      "url": "https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html",
-      "risk_score": 15,
-      "status": "malicious",
-      "detections": {
-        "malicious": 14,
-        "suspicious": 1,
-        "undetected": 28,
-        "total_engines": 98
-      },
-      "categories": [
-        "phishing",
-        "malicious",
-        "suspicious"
-      ],
-      "scan_date": "2025-12-18T15:09:07",
-      "cached": false,
-      "scanned_at": "2025-12-18T08:16:06.580912"
-    },
-    "cached_at": "2025-12-18T08:16:06.581384",
-    "expires_at": "2025-12-18T09:16:06.581384"
-  },
   "d98cded66140282dc52d28d5cf3d178d86f3e9de1666b3598dcb3febce6418c7": {
     "url": "https://www.facebook.com",
     "result": {
@@ -226,5 +202,35 @@
     },
     "cached_at": "2025-12-18T09:05:09.852837",
     "expires_at": "2025-12-18T10:05:09.852837"
+  },
+  "b96895faada848f1fcbf141c546d01a5dacea0251c5c95303132cb2031d805c1": {
+    "url": "https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html",
+    "result": {
+      "url": "https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html",
+      "risk_score": 100,
+      "status": "malicious",
+      "detections": {
+        "malicious": 14,
+        "suspicious": 1,
+        "undetected": 26,
+        "total_engines": 98
+      },
+      "categories": [
+        "phishing",
+        "malicious",
+        "suspicious"
+      ],
+      "scan_date": "2025-12-22T14:58:47",
+      "infrastructure": {
+        "domain": "doiquasukien.com",
+        "creation_date": "2025-10-04",
+        "registrar": "Spaceship, Inc.",
+        "ip_address": "104.21.88.75"
+      },
+      "cached": false,
+      "scanned_at": "2025-12-22T08:59:58.862175"
+    },
+    "cached_at": "2025-12-22T08:59:58.862188",
+    "expires_at": "2025-12-22T09:59:58.862188"
   }
 }
