@@ -133,8 +133,16 @@
           <span class="cached-badge">Cached Result</span>
         </p>
         <p v-if="result.original_vt_score !== undefined">
-          <span class="info-badge">VirusTotal: {{ result.original_vt_score }}</span>
-          <span v-if="result.threat_intelligence && result.threat_intelligence.threat_score" class="info-badge">
+          <span class="info-badge"
+            >VirusTotal: {{ result.original_vt_score }}</span
+          >
+          <span
+            v-if="
+              result.threat_intelligence &&
+              result.threat_intelligence.threat_score
+            "
+            class="info-badge"
+          >
             Threat Intel: {{ result.threat_intelligence.threat_score }}
           </span>
         </p>
@@ -142,7 +150,11 @@
 
       <!-- Threat Intelligence Indicators -->
       <div
-        v-if="result.threat_intelligence && result.threat_intelligence.indicators && result.threat_intelligence.indicators.length > 0"
+        v-if="
+          result.threat_intelligence &&
+          result.threat_intelligence.indicators &&
+          result.threat_intelligence.indicators.length > 0
+        "
         class="threat-indicators"
       >
         <h3>Threat Indicators Detected</h3>
@@ -158,12 +170,18 @@
             </span>
             <div class="indicator-content">
               <span class="indicator-message">{{ indicator.message }}</span>
-              <span class="indicator-risk">+{{ indicator.risk_increase }} risk</span>
+              <span class="indicator-risk"
+                >+{{ indicator.risk_increase }} risk</span
+              >
             </div>
           </div>
         </div>
-        <div v-if="result.threat_intelligence.recommendation" class="threat-recommendation">
-          <strong>Analysis:</strong> {{ result.threat_intelligence.recommendation }}
+        <div
+          v-if="result.threat_intelligence.recommendation"
+          class="threat-recommendation"
+        >
+          <strong>Analysis:</strong>
+          {{ result.threat_intelligence.recommendation }}
         </div>
       </div>
 
@@ -521,7 +539,7 @@ const getSeverityIcon = (severity) => {
     critical: "🚨",
     high: "⚠️",
     medium: "⚡",
-    low: "ℹ️"
+    low: "ℹ️",
   };
   return icons[severity] || "ℹ️";
 };

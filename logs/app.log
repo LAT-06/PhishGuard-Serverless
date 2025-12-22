@@ -821,3 +821,10 @@ Stacktrace:
 2025-12-22 16:07:42,107 - screenshot - INFO - Successfully captured screenshot of https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html using firefox
 2025-12-22 16:07:43,067 - __main__ - INFO - Screenshot captured with firefox for: https://doiquasukien.com/l4QzAt0TN6ejhsJcH5RXGloqmS17jQKVXyxDa73J3YVWPhArr4aoygt1QLkmGSUFB4LApJ8DZssAkYvqcH1nr14kZXV5qrVI3DqDshAsnOdYdUya9NOmPg0AnY3AxyDupKpCz4WzUqwgofj6NzoGmehI0pwg9plfVyMhmPDQZMGagVMIy5OfzGYESX9OULfYXkpnkJDHH3eDcUe8M67dUYYW3wJRzGoPqGD.html
 2025-12-22 16:07:43,076 - werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 16:07:43] "POST /api/screenshot HTTP/1.1" 200 -
+2025-12-22 16:12:48,668 - werkzeug - INFO -  * Detected change in '/home/lat/Documents/self study/PhishGuard-Serverless/backend/app.py', reloading
+2025-12-22 16:12:48,745 - werkzeug - INFO -  * Restarting with stat
+2025-12-22 16:12:49,023 - app - INFO - Logging initialized
+2025-12-22 16:12:49,023 - __main__ - INFO - Application initialized successfully
+2025-12-22 16:12:49,025 - __main__ - INFO - Starting Flask server on 0.0.0.0:5000
+2025-12-22 16:12:49,036 - werkzeug - WARNING -  * Debugger is active!
+2025-12-22 16:12:49,039 - werkzeug - INFO -  * Debugger PIN: 305-939-546
